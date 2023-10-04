@@ -1,4 +1,4 @@
-# sidebar-project
+# sidebar
 
 ## Project setup
 ```
