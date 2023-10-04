@@ -11,7 +11,6 @@ Joanne Park,
 Chaerin Lee, 
 Naomi Eskinder Woudneh, 
 Tanishqa Kuchi, 
-Jackson Li, 
-Andrew Kim
+Jackson Li
 
 General Availability https://lettucemeet.com/l/DL07E
