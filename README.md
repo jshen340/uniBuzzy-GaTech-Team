@@ -7,10 +7,10 @@ unibuzzy.com
 ## Current Contributors
 Jocelyn Shen, 
 Joseph Atkinson, 
-Joanne Park, 
 Chaerin Lee, 
 Naomi Eskinder Woudneh, 
 Tanishqa Kuchi, 
-Jackson Li
+Jackson Li,
+Alan Zheng
 
 General Availability https://lettucemeet.com/l/DL07E
