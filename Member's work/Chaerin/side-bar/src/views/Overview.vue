@@ -1,6 +1,6 @@
 <template>
-    <div class="profile">
-        <p>Profile</p>
+    <div class="overview">
+        <p>Overview</p>
     </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped>
-    .profile {
+    .overview {
         display: flex;
         justify-content: center;
         align-items: center;

@@ -1,6 +1,6 @@
 <template>
-    <div class="settings">
-        <p>Settings</p>
+    <div class="messages">
+        <p>Messages</p>
     </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped>
-    .overview {
+    .messages {
         display: flex;
         justify-content: center;
         align-items: center;

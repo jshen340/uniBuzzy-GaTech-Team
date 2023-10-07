@@ -1,6 +1,6 @@
 <template>
-    <div class="overview">
-        <p>Overview</p>
+    <div class="settings">
+        <p>Settings</p>
     </div>
 </template>
 

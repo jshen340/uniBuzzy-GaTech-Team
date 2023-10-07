@@ -1,6 +1,6 @@
 <template>
-    <div class="messages">
-        <p>Messages</p>
+    <div class="profile">
+        <p>Profile</p>
     </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped>
-    .messages {
+    .profile {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -22,4 +22,3 @@ export default {
         font-weight: 600;
     }
 </style>
-
