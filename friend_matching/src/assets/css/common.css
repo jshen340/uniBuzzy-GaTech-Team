@@ -1,0 +1,84 @@
+html {
+  width: 100%;
+  margin: 0 auto !important;
+  height: 100%;
+  position: relative;
+  overflow:auto;
+}
+body {
+  -webkit-text-size-adjust:none;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 100%;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+  list-style: none !important;
+}
+pre {
+  margin: 0 !important;
+
+  white-space: pre-wrap; word-break: break-all; overflow: auto;
+  font-family: KoPubDotumMedium !important;
+  font-size: 14px !important;
+  text-align: left !important;
+}
+pre span{
+  white-space: pre-wrap; word-break: break-all; overflow: auto;
+  font-family: KoPubDotumMedium !important;
+}
+pre img {
+  -webkit-text-size-adjust:none;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.cursorDragText {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-use-select: text !important;
+  user-select: text !important;
+}
+.cursorNotDrag {
+  -webkit-text-size-adjust:none;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.editableContent {
+  -webkit-user-select: auto !important;
+  -moz-user-select: auto !important;
+  -ms-user-select: auto !important;
+  user-select: auto !important;
+}
+
+input, select {
+  -webkit-user-select:auto !important;
+  -moz-user-select:auto !important;
+  -ms-user-select:auto !important;
+  user-select:auto !important;
+  font-size: 14px !important;
+  border-radius: 5px !important;
+  border: 1px solid #ccc !important;
+  white-space: nowrap !important;
+  overflow: scroll hidden !important;
+  padding: 1px 5px !important;
+  color: #303030 !important;
+  background: white !important;
+  outline: none;
+}
+.w100P { width: 100%; }
+.h100P { height: 100%; }
+.fl { float: left; }
+.fr { float: right; }
+.flexCenter {display: flex; align-items: center; justify-content: center;}
+.textCenter { text-align: center; }
+.fontBold { font-weight: bold; }
