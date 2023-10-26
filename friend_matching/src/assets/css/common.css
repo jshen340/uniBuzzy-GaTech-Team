@@ -82,3 +82,26 @@ input, select {
 .flexCenter {display: flex; align-items: center; justify-content: center;}
 .textCenter { text-align: center; }
 .fontBold { font-weight: bold; }
+
+.outlining { outline:5px solid red; margin:auto;
+  margin-top:3px;
+  margin-bottom:2px;}
+
+.menuRoundedCorners {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.roundedCorners {
+  border-radius: 25px;
+}
+
+
+.textSize {
+  font-size: 35px;
+}
+.cornerMargin {
+  margin-top: 25px;
+  margin-right: 25px;
+}
+.margin {margin: 50px;}
