@@ -46,7 +46,7 @@
         },
         methods: {
             buttonClick() {}
-    }
+        }
     }
     
 </script>
