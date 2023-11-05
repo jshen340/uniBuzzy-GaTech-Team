@@ -5,29 +5,27 @@
     </div>
         <div class="centeredBox">
             <div class="box">
-            <ul class="list">
-                <li>
+                <div>
                     <img class="emoji8" src="../assets/unib_emoji_8.png" alt="profile picture" /> <!-- user profile picture -->
-                </li>
-                <li>
-                    <img class= "locationIcon">
+                </div>
+                <div class="locationIcons">
+                    <img class= "locationIcon" src="../assets/location_ping.png">
                     <h4>Location{{Location}}</h4> <!-- add location variable from matched location -->
-                </li>
-                <li>
-                    <img class="clothingIcon">
+                </div> 
+                <div class="clothingIcons">
+                    <img class="clothingIcon" src="../assets/hanger.png">
                     <h4>Clothing{{Clothing}}</h4> <!-- add clothing variable from clothing -->
-                </li>
-            </ul>
+                </div>
         </div>
     </div>
     
     <div class="centeredButton">
-        <div class="contact_button" :class="this.btnThema === 'light' ? 'lightColor' : this.btnThema === 'deepLightColor' ? 'deepLightColor' : 'deepColor'" >
+        <div class="button" :class="this.btnThema === 'light' ? 'lightColor' : this.btnThema === 'deepLightColor' ? 'deepLightColor' : 'lightColor'" >
         {{contactButton}}
         </div>
     </div>
     <div class ="centeredButton">
-        <div class="contact_button" :class="this.btnThema === 'light' ? 'lightColor' : this.btnThema === 'deepLightColor' ? 'deepLightColor' : 'deepColor'" >
+        <div class="button" :class="this.btnThema === 'light' ? 'lightColor' : this.btnThema === 'deepLightColor' ? 'deepLightColor' : 'deepColor'" >
         {{metButton}}
         </div>
     </div>
@@ -54,7 +52,8 @@
 <style>
     .match {
         font-family: 'Josefin Sans', sans-serif;
-        margin-top: 200px;
+        font-weight: bold;
+        margin-top: 40%;
     }
     .centeredBox {
         display: flex;
@@ -70,57 +69,74 @@
         margin: 20px;
         padding: 20px;
         margin-bottom: 50px;
-    }
-    .list {
         margin-top: 50px;
         text-align: center;
         align-items: center;
         list-style-type: none;
         font-family: 'Josefin Sans', sans-serif;
     }
+    .locationIcons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .clothingIcons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .locationIcon {
-        display: inline-block;
-        background-image: url("../assets/location_ping.png");
         background-repeat: no-repeat;
+        width: 8%;
+        height: auto;
+        margin-right: 20px;
+        margin-bottom: 0px;
     }
     .clothingIcon {
-        display:inline-block;
-        background-image: url("../assets/hanger.png");
         background-repeat: no-repeat;
+        width: 8%;
+        height: auto;
+        margin-right: 20px;
+        margin-top: 0px;
     }
     .emoji8{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 20%;
+        border: 2px solid #2FB2E7;
+        border-radius: 70%;
+        padding: 10px;
     }
     .lightColor {
-        background-color: #f6f5f9;
-        color: #000000;
+        background-color: #ffffff;
+        color: #2FB2E7;
     }
     .deepColor {
-        background-color: #5F61BD;
+        background-color: #2FB2E7;
         color: #FFFFFF;
     }
     .deepLightColor {
         background-color: #ffffff;
         color: #000000;
     }
-    .contact_button {
+    .button {
         cursor: pointer;
-        width: fit-content;
+        border: 3px solid #2FB2E7;
         line-height: 30px;
-        border-radius: 5px;
+        border-radius: 20px;
         min-width: 3rem;
-        height: 30px;
+        height: 45px;
         padding: 0 20px;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 15px;
-        flex: 0.25;
+        width: 50%;
         font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
     }
     .centeredButton {
         display: flex;

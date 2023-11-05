@@ -7,7 +7,7 @@
         <h2>Try again later!</h2>
     </div>
     <div class="centeredButton">
-        <div class="notifyMe" :class="this.btnThema === 'light' ? 'lightColor' : this.btnThema === 'deepLightColor' ? 'deepLightColor' : 'deepColor'" >
+        <div class="notifyMe" :class="this.btnThema === 'light' ? 'lightColor' : this.btnThema === 'deepLightColor' ? 'deepLightColor' : 'lightColor'" >
         {{notifyMe}}
         </div>
     </div>
@@ -46,11 +46,11 @@
         padding-top: 10%;
     }
     .lightColor {
-        background-color: #f6f5f9;
-        color: #000000;
+        background-color: #ffffff;
+        color: #2FB2E7;
     }
     .deepColor {
-        background-color: #5F61BD;
+        background-color: #2FB2E7;
         color: #FFFFFF;
     }
     .deepLightColor {
@@ -59,24 +59,25 @@
     }
     .notifyMe {
         cursor: pointer;
-        width: fit-content;
+        border: 3px solid #2FB2E7;
         line-height: 30px;
-        border-radius: 5px;
+        border-radius: 20px;
         min-width: 3rem;
-        height: 40px;
+        height: 45px;
         padding: 0 20px;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 15px;
-        flex: 0.6;
+        width: 40%;
         font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
     }
     .centeredButton {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 5%;
+        padding-top: 7%;
     }
 </style>
